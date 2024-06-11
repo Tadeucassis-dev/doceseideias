@@ -4,7 +4,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import AppRoutes from "./routes/router/route.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
+  <React.StrictMode >
     <ChakraProvider>
       <AppRoutes />
     </ChakraProvider>

@@ -1,9 +1,9 @@
-import { Box } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 
 const Footer = () => {
   return (
-    <Box as="footer" textAlign="center" py={4} backgroundColor="pink">
-      © 2024 Doces e idéias. Todos os direitos reservados.
+    <Box bg="pink.500" p={4} color="white" textAlign="center">
+      <Text>&copy; 2024 Doces e Ideias. Todos os direitos reservados.</Text>
     </Box>
   );
 };
