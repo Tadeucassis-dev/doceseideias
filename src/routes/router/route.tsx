@@ -1,8 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Contatos from "../../pages/contatos";
-import Festas from "../../pages/festas";
 import Home from "../../pages/home";
-import Servicos from "../../pages/servicos";
+import Cestas from "../../pages/cestas";
+import Doces from "../../pages/doces";
 import Temas from "../../pages/temas";
 
 const AppRoutes = () => {
@@ -10,10 +9,9 @@ const AppRoutes = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/servicos" element={<Servicos />} />
-        <Route path="/festas" element={<Festas />} />
         <Route path="/temas" element={<Temas />} />
-        <Route path="/contatos" element={<Contatos />} />
+        <Route path="/cestas" element={<Cestas />} />
+        <Route path="/doces" element={<Doces />} />
       </Routes>
     </Router>
   );

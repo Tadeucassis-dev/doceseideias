@@ -6,10 +6,11 @@ const Header = () => {
       <Flex maxW="1200px" mx="auto" align="center">
         <Heading size="md">Doces e Ideias</Heading>
         <Spacer />
-        <Flex gap={4}>
-          <Link href="/bolos">Bolos</Link>
-          <Link href="/doces">Doces</Link>
-          <Link href="/temas">Temas de Festa</Link>
+        <Flex gap={6} >
+          <Link href="/">Inicio </Link>
+          <Link href="/temas">temas </Link>
+          <Link href="/cestas">cestas </Link>
+          <Link href="/doces">doces </Link>
         </Flex>
       </Flex>
     </Box>

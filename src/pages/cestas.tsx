@@ -1,14 +1,14 @@
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Box, Text, Flex } from "@chakra-ui/react";
 import Header from "../components/header";
 import Footer from "../components/footer";
 
-const Temas = () => {
+const Cestas = () => {
   return (
     <>
       <Flex direction="column" minH="100vh">
         <Header />
-        <Box flex={1} backgroundColor='blue'>
-          <Text>TEMAS</Text>
+        <Box flex="1" bgColor={'yellow'}>
+          <Text>CESTAS</Text>
         </Box>
         <Footer />
       </Flex>
@@ -16,4 +16,4 @@ const Temas = () => {
   );
 };
 
-export default Temas;
+export default Cestas;
